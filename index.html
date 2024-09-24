@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#242B33]">
 
   <header class="  bg-[url(./img./Rectangle.png)] bg-no-repeat bg-cover h-screen ">
-    <nav class="container mx-auto px-4 flex flex-wrap items-center py-4">
+    <nav class="max-w-[1100px] w-full mx-auto px-4 flex flex-wrap items-center py-4">
       <div class="flex-1 flex justify-between items-center">
           <a href="#" class="text-xl"><img src="img/first-screen__logo.svg" alt=""></a>
       </div>
@@ -37,7 +37,7 @@
       </div>
     </nav>
 
-      <div class="container flex flex-col items-center justify-center mt-32">
+      <div class="max-w-[1100px] w-full mx-auto flex flex-col items-center justify-center mt-32">
         <h1 class="text-5xl text-[#D4C17F] max-w-xl text-center mb-24 ">Жилой комплекс
           в историческом центре</h1>
 
@@ -51,6 +51,36 @@
           </div>
       </div>
   </header>
+
+  <main>
+    <section class="max-w-[1100px] w-full mx-auto">
+      <div class="flex justify-between items-center text-[#FFFFFF]">
+        <div class="flex flex-col items-center">
+          <img class="text-center" src="./img/bench.png" alt="">
+        <p class="text-xl text-center mt-10">Рядом исторические <br>
+          парки и скверы</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img class="text-center" src="./img/building.png" alt="">
+        <p class="text-xl text-center mt-10">Полностью <br>
+          обустроенный</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img class="text-center" src="./img/fountain.png" alt="">
+        <p class="text-xl text-center mt-10">10 фонтанов <br>
+          на территории</p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <img class="text-center" src="./img/bicycle.png" alt="">
+        <p class="text-xl text-center mt-10">6 км <br>
+          велодорожек</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
 </body>
 </html>
